@@ -24,7 +24,7 @@ while True:
     try:
         # register
         exams = browser.find_elements_by_class_name('groupHeadertrigger')
-        exam = exams[config['number']]
+        exam = exams[config['number'] - 1]
         exam.click()
         exam.click()
 
