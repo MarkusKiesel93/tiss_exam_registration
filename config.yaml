@@ -1,0 +1,7 @@
+# url of the exam to register for
+url: 'https://tiss.tuwien.ac.at/education/course/'
+# number of the exam in the exam list
+number: 1
+# tiss login information
+user_name: 'user_login_name'
+user_pw: 'secret password'
